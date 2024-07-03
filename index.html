@@ -3,12 +3,12 @@
 <title>Page Title</title>
 </head>
 <body>
-  <form name="password form">
-  <label for="username">Username:</label>
-  <input type="text" id="username" name="username" />
-  <label for="password">Password:</label>
-  <input id="password" type="text" name="password" oninput="(this.type='password')"/>
-  <input type="submit" value="Sign in" onclick="window.location.href = 'https://example.com';" />
+<iframe id="iframe1">
+  <form id="form1">
+    <input autocomplete="address-line1">
+    <input autocomplete="name">
+    <input autocomplete="country">
   </form>
+</iframe>
 </body>
 </html>
